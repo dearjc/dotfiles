@@ -2,7 +2,7 @@
 my dotfiles
 
 
-## REPOSITORIO PARA ARCHIVOS DOTFILES DE TODO MI SISTEMA
+## REPOSITORIO PARA ARCHIVOS DOTFILES DE TODO MI SISTEMA [^1]
 
 - Bash
   - .bash_aliases{ffmpeg,yt-dlp, intalacion de programas}
@@ -40,5 +40,8 @@ using GitHub directly.
 Any use of this project's code by GitHub Copilot, past or present, is done
 without our permission.  We do not consent to GitHub's use of this project's
 code in Copilot.
+[^1]: 🥇todo este documento esta actualmente en curso
 
 ![Logo of the GiveUpGitHub campaign](https://sfconservancy.org/img/GiveUpGitHub.png)
+
+
