@@ -5,7 +5,7 @@ my dotfiles
 ## REPOSITORIO PARA ARCHIVOS DOTFILES DE TODO MI SISTEMA
 
 - Bash
-  - .bash_aliases{ffmpeg,yt-dlp}
+  - .bash_aliases{ffmpeg,yt-dlp, intalacion de programas}
   - .bashrc
   - .bash_history
 
