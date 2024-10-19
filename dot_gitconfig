@@ -1,13 +1,13 @@
 # Este es el archivo de configuración de Git por usuario.
 [user]
-	name = JC
+	name = J 
 	email = h3b@tuta.io
 [init]
 	defaultBranch = main
 [core]
 	editor = code
 [credential]
-	helper = cache 
+	helper = cache --timeout=8000000
 [color]
 	ui = True
 
