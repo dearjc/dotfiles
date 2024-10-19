@@ -1,0 +1,65 @@
+#ola
+
+# descargar videos con yt-dlg
+alias v720="yt-dlp -f 'bestvideo[height<=720]+bestaudio/best[height<=720]' --write-sub --sub-lang es,fr,en,pt --embed-subs --merge-output-format mkv "
+
+alias v2500="yt-dlp -f 'bestvideo[height<=2500]+bestaudio/best[height<=2500]' --write-sub --sub-lang es,fr,en,pt --embed-subs "
+#--merge-output-format mkv
+
+alias v1500="yt-dlp -f 'bestvideo[height<=1500]+bestaudio/best[height<=1500]' --write-sub --sub-lang es,fr,en,pt --embed-subs "
+
+
+alias v480="yt-dlp -f 'bestvideo[height<=480]+bestaudio/best[height<=480]' --write-sub --sub-lang es,fr,en,pt --embed-subs --merge-output-format mkv"
+
+#------instalaciones
+
+# alias install_vimPlug = "sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+#        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'"
+
+
+alias install_nvim="  cd &&
+                        cd /usr/local/ &&
+                        curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz &&
+                        tar xzf nvim-linux64.tar.gz &&
+                        chmod u+x./nvim-linux64/bin/nvim &&
+                        rm nvim-linux64.tar.gz &&
+                        echo 'se ha instalado neovim'
+                        " # no olvides escribir en el .bashrc : export PATH="$PATH:/usr/nvim-linux64/bin"
+
+
+alias install_0xproto="cd ./.local/share &&
+                        curl -LO https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/0xProto.zip &&
+                        tar xzf 0xProto.zip &&
+                        mv 0xProto fonts &&
+                        rm 0xProto.zip &&
+                        cd &&
+                        echo 'se ha instalado la fuente 0xProto v3.2.1'
+                        "
+
+alias install_astroNvim="mv ~/.config/nvim ~/.config/nvim.bak #respaldo de la actual configuracion de Nvim &&
+                            # limpia las carpetas de Nvim &&
+                            mv ~/.local/share/nvim ~/.local/share/nvim.bak &&
+                            mv ~/.local/state/nvim ~/.local/state/nvim.bak &&
+                            mv ~/.cache/nvim ~/.cache/nvim.bak &&
+                            # clona e instala astronvim &&
+                            git clone --depth 1 https://github.com/AstroNvim/template ~/.config/nvim &&
+                            rm -rf ~/.config/nvim/.git &&
+                            echo 'se ha instalado la configuracion astronvim' &&
+                            nvim"   
+
+alias install_posgresql="sudo apt install -y postgresql-13"
+
+alias install_dlna="sudo apt install minidlna && sudo service minidlna start && sudo service minidlna status && sudo featherpad /etc/minidlna.conf && sudo service minidlna restart"
+
+alias install_dotdrop="cd ~&&
+mkdir .misdotfiles &&
+cd .misdotfiles &&
+git init &&
+git submodule add https://github.com/deadc0de6/dotdrop.git &&
+pip3 install -r dotdrop/requirements.txt --user"
+
+alias install_neovim="git clone https://github.com/neovim/neovim.git
+sudo apt install cmake
+cd neovim
+make CMAKE_BUILD_TYPE=Release
+sudo make install"

@@ -1,0 +1,73 @@
+"hasta ahora creo que lo indispensable es la configuracion set(ordenado por priodidad en funcion del tiempo), mapeo de control de flujo de al menos python y c, mapeo de comentarios,intentar escribir plugins 
+
+
+
+syntax on
+set nu rnu nocompatible mouse=a numberwidth=4 cursorline
+set ai si sw=2 et sts=2
+set sb sr  
+set nohlsearch incsearch ignorecase showmatch
+
+
+set clipboard=unnamed encoding=utf-8 hidden wildmenu
+
+set history=999
+set termguicolors
+colorscheme  desert
+  
+autocmd TextChanged,TextChangedI * silent write "autoguardado
+set showcmd
+
+"set updatetime=500
+"autocmd CursorHold * silent write "autoguardado de 0.5s"
+
+
+"mapeos
+
+""funcionalidades
+
+"""movimiento entre splits
+map <C-h> <C-w>h
+map <C-j> <C-w>j
+map <C-k> <C-w>k
+map <C-l> <C-w>l
+
+"""mapeo para crear splits verticales y horizontales
+
+"""mapeo para ejecutar el codigo dentro de la terminal integrada 
+
+"""mapeo para estructuras de control de flujo: for, while, do while, if else, match case
+
+
+
+""" movimiento entre buffer
+
+
+let &t_ut=''
+
+"print('ola')
+
+
+
+
+
+@REM set mouse=a
+@REM set sw=2
+@REM set number
+@REM set noerrorbells
+@REM set rnu
+@REM set expandtab
+@REM set smartindent
+@REM set numberwidth=1
+@REM set nowrap
+@REM set termguicolors
+@REM set colorcolumn=120
+@REM set cursorline
+@REM set encoding=utf-8
+@REM set ignorecase
+@REM set incsearch
+@REM set nobackup
+@REM set noswapfile
+
+
+
