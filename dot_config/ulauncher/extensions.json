@@ -1,0 +1,58 @@
+{
+    "com.github.tuanpham-dev.ulauncher-better-calculator": {
+        "id": "com.github.tuanpham-dev.ulauncher-better-calculator",
+        "url": "https://github.com/tuanpham-dev/ulauncher-better-calculator",
+        "updated_at": "2023-11-12T20:46:10.422211",
+        "last_commit": "48f0592a2a8ac9ec2589a06b562141e1a2d9b25f",
+        "last_commit_time": "2023-04-24T13:55:30"
+    },
+    "com.github.hillaryychan.ulauncher-fzf": {
+        "id": "com.github.hillaryychan.ulauncher-fzf",
+        "url": "https://github.com/hillaryychan/ulauncher-fzf",
+        "updated_at": "2023-11-12T20:53:18.031542",
+        "last_commit": "e8137dae6448041fc53ae418263501b068857073",
+        "last_commit_time": "2023-05-16T12:35:35"
+    },
+    "com.github.ulauncher.ulauncher-timer": {
+        "id": "com.github.ulauncher.ulauncher-timer",
+        "url": "https://github.com/ulauncher/ulauncher-timer",
+        "updated_at": "2023-11-13T22:26:20.224692",
+        "last_commit": "2d3fe82fe1e38670e6eb8887cd2a4b4d1c2baa79",
+        "last_commit_time": "2023-03-25T08:07:41"
+    },
+    "com.github.rapha149.ulauncher-deepl": {
+        "id": "com.github.rapha149.ulauncher-deepl",
+        "url": "https://github.com/Rapha149/ulauncher-deepl/",
+        "updated_at": "2024-10-01T13:20:38.483700",
+        "last_commit": "2dd4e692c5ed3b1c92258ae91354dcc370def909",
+        "last_commit_time": "2023-01-12T17:49:43"
+    },
+    "com.github.msaistaken.ulauncher-translator": {
+        "id": "com.github.msaistaken.ulauncher-translator",
+        "url": "https://github.com/msaistaken/ulauncher-translator",
+        "updated_at": "2024-01-11T00:18:31.273353",
+        "last_commit": "824037cd06fb56162c0d629020bdc4b70ce3d77e",
+        "last_commit_time": "2021-07-25T18:22:55"
+    },
+    "com.github.manahter.ulauncher-translate": {
+        "id": "com.github.manahter.ulauncher-translate",
+        "url": "https://github.com/manahter/ulauncher-translate",
+        "updated_at": "2024-10-02T17:44:23.574940",
+        "last_commit": "f81d32c583c7e3542bdba655e991a56e6d9a2c28",
+        "last_commit_time": "2021-04-09T18:12:40"
+    },
+    "com.github.luasenvy.ulauncher-node": {
+        "id": "com.github.luasenvy.ulauncher-node",
+        "url": "https://github.com/luasenvy/ulauncher-node",
+        "updated_at": "2024-10-02T18:16:16.325386",
+        "last_commit": "f8d3d592b70d62c1e98cc6debd378e9f4b3c5417",
+        "last_commit_time": "2022-05-24T00:33:40"
+    },
+    "com.github.igorvaryvoda.ulauncher-perplexity": {
+        "id": "com.github.igorvaryvoda.ulauncher-perplexity",
+        "url": "https://github.com/IgorVaryvoda/ulauncher-perplexity",
+        "updated_at": "2024-10-02T18:22:41.374805",
+        "last_commit": "98c2c87788ac4ebd362b1967de539c4e394c2f6a",
+        "last_commit_time": "2024-09-15T06:24:58"
+    }
+}
