@@ -6,7 +6,7 @@ set nu rnu nocompatible mouse=a numberwidth=4 cursorline
 set ai si sw=2 et sts=2
 set sb sr  
 set nohlsearch incsearch ignorecase showmatch
-
+set nobackup
 
 set clipboard=unnamed encoding=utf-8 hidden wildmenu
 
